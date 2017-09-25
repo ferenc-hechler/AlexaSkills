@@ -1,5 +1,5 @@
-# AlexaSkills
-Die NodeJS Sourcen zu den Alexa Skills "Rollenspiel Soloabenteuer", "Vier Gewinnt" und "Schiffeversenken". 
+# SoloabenteuerSkill
+Die NodeJS Sourcen zum Alexa Skill "Rollenspiel Soloabenteuer". 
 Die zugehörigen REST-Services befinden sich im Java-Projekt AIGames.
 
 # License GPLv3

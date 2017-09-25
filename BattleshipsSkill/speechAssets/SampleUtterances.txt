@@ -1,0 +1,56 @@
+ConnectGameIntent Spiel ID {gameid_letter} {gameid_number}
+ConnectGameIntent Meine Spiel ID ist {gameid_letter} {gameid_number}
+ConnectGameIntent Die Spiel ID ist {gameid_letter} {gameid_number}
+
+BlindGameIntent Blindspiel
+BlindGameIntent Starte ein Blindspiel
+BlindGameIntent Ich möchte ein Blindspiel spielen
+
+SetPlayerNameIntent Mein Name ist {player_name}
+SetPlayerNameIntent ich bin {player_name}
+SetPlayerNameIntent nenn mich {player_name}
+
+PlayerMoveQueryIntent {row} {column}
+PlayerMoveQueryIntent Was ist auf {row} {column}
+PlayerMoveQueryIntent Was hast du auf {row} {column}
+PlayerMoveQueryIntent Sag mir was du auf {row} {column} hast
+
+PlayerMoveAnswerIntent {content}
+PlayerMoveAnswerIntent Da ist {content}
+PlayerMoveAnswerIntent Das ist {content}
+
+SetFieldSizeIntent Ändere Spielfeldgröße {field_size}
+SetFieldSizeIntent Ändere Spielfeldgröße auf {field_size}
+SetFieldSizeIntent Ändere die Spielfeldgröße auf {field_size}
+SetFieldSizeIntent Setze Spielfeldgröße {field_size}
+SetFieldSizeIntent Setze Spielfeldgröße auf {field_size}
+SetFieldSizeIntent Ich möchte mit Spielfeldgröße {field_size} spielen
+
+GameStateIntent Wer ist dran
+GameStateIntent Wer ist am Zug
+GameStateIntent Bin ich dran
+GameStateIntent Bist Du dran
+GameStateIntent Wer muss ziehen
+GameStateIntent muss ich ziehen
+GameStateIntent Wie groß ist das Spielfeld
+GameStateIntent Welche Größe hat das Spielfeld
+GameStateIntent Wie viele Schiffe muss ich setzen
+GameStateIntent Wie viele Schiffe gibt es 
+
+AMAZON.StopIntent Stop
+AMAZON.StopIntent Beenden
+AMAZON.StopIntent Abbrechen
+
+AMAZON.HelpIntent Hilfe
+AMAZON.HelpIntent Ich komme nicht weiter
+AMAZON.HelpIntent Was soll ich jetzt tun
+AMAZON.HelpIntent Was muss ich jetzt tun
+AMAZON.HelpIntent Was kann ich jetzt tun
+
+IssueHelpIntent Erkläre mir {issue}
+IssueHelpIntent Was ist {issue}
+IssueHelpIntent Hilfe zu {issue}
+
+AMAZON.StartOverIntent Neues Spiel
+AMAZON.StartOverIntent Starte ein neues Spiel
+AMAZON.StartOverIntent Neue starten

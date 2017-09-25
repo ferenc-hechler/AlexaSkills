@@ -1,0 +1,56 @@
+ConnectGameIntent Game ID {gameid_letter} {gameid_number}
+ConnectGameIntent My game id is {gameid_letter} {gameid_number}
+ConnectGameIntent The game id is {gameid_letter} {gameid_number}
+
+BlindGameIntent blindgame
+BlindGameIntent Start a blindgame
+BlindGameIntent I want to play a blindgame
+
+SetPlayerNameIntent My Name is {player_name}
+SetPlayerNameIntent I am {player_name}
+SetPlayerNameIntent Call me {player_name}
+
+PlayerMoveQueryIntent {row} {column}
+PlayerMoveQueryIntent What is on {row} {column}
+PlayerMoveQueryIntent What do you have on {row} {column}
+PlayerMoveQueryIntent tell me what is on {row} {column}
+PlayerMoveQueryIntent I shoot at {row} {column}
+
+PlayerMoveAnswerIntent {content}
+PlayerMoveAnswerIntent There is {content}
+PlayerMoveAnswerIntent This is {content}
+
+SetFieldSizeIntent Change field size {field_size}
+SetFieldSizeIntent Change field size to {field_size}
+SetFieldSizeIntent Change the field size to {field_size}
+SetFieldSizeIntent set field size {field_size}
+SetFieldSizeIntent set field size to {field_size}
+SetFieldSizeIntent I want to play with field size {field_size}
+
+GameStateIntent Whos turn is it
+GameStateIntent Who is
+GameStateIntent Is it my turn
+GameStateIntent Is it yout turn
+GameStateIntent Do I have to move
+GameStateIntent What is the field size
+GameStateIntent How large is the field size
+GameStateIntent Which size has the field
+GameStateIntent How many ships should be set
+GameStateIntent How many ships are there
+
+AMAZON.StopIntent Stop
+AMAZON.StopIntent cancel
+AMAZON.StopIntent abort
+
+AMAZON.HelpIntent Help
+AMAZON.HelpIntent I do not know what to do 
+AMAZON.HelpIntent what shall I do now
+AMAZON.HelpIntent What can I do now
+
+IssueHelpIntent Explain me {issue}
+IssueHelpIntent What is {issue}
+IssueHelpIntent Help about {issue}
+
+AMAZON.StartOverIntent New game
+AMAZON.StartOverIntent Start a new game
+AMAZON.StartOverIntent start over

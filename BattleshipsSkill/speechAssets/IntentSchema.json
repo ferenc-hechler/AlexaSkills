@@ -1,0 +1,96 @@
+{
+  "intents": [
+  
+    {
+      "intent": "ConnectGameIntent",
+      "slots": [
+        {
+          "name": "gameid_letter",
+          "type": "LIST_OF_LETTERS"
+        },
+        {
+          "name": "gameid_number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+
+    {
+      "intent": "BlindGameIntent"
+    },
+
+    {
+      "intent": "SetPlayerNameIntent",
+      "slots": [
+        {
+          "name": "player_name",
+          "type": "AMAZON.DE_FIRST_NAME"
+        }
+      ]
+    },
+
+    {
+      "intent": "PlayerMoveQueryIntent",
+      "slots": [
+        {
+          "name": "row",
+          "type": "LIST_OF_ROWS"
+        },
+        {
+          "name": "column",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+
+    {
+      "intent": "PlayerMoveAnswerIntent",
+      "slots": [
+        {
+          "name": "content",
+          "type": "LIST_OF_FIELDCONTENTS"
+        }
+      ]
+    },
+
+    {
+      "intent": "SetFieldSizeIntent",
+      "slots": [
+        {
+          "name": "field_size",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    
+    {
+      "intent": "IssueHelpIntent",
+      "slots": [
+        {
+          "name": "issue",
+          "type": "LIST_OF_HELPISSUES"
+        }
+      ]
+    },
+    
+    {
+      "intent": "GameStateIntent"
+    },
+    
+	{
+	  "intent": "AMAZON.StartOverIntent"
+	},
+	{
+	  "intent": "AMAZON.HelpIntent"
+	},
+	{
+	  "intent": "AMAZON.StopIntent"
+	},
+	{
+	  "intent": "AMAZON.YesIntent"
+	},
+	{
+	  "intent": "AMAZON.NoIntent"
+	}	
+  ]
+}

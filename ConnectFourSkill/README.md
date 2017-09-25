@@ -1,5 +1,5 @@
-# AlexaSkills
-Die NodeJS Sourcen zu den Alexa Skills "Rollenspiel Soloabenteuer", "Vier Gewinnt" und "Schiffeversenken". 
+# ConnectFourSkill
+Die NodeJS Sourcen zum Alexa Skill "Vier Gewinnt". 
 Die zugehörigen REST-Services befinden sich im Java-Projekt AIGames.
 
 # License GPLv3

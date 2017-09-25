@@ -1,0 +1,32 @@
+Spiele Schiffe-Versenken gegen Alexa. 
+
+Da Fragen in Rezensionen nicht direkt beantwortet können, habe ich die Antworten am Ende dieser Beschreibung angefügt.
+
+Du kannst ein Blindspiel machen, oder dir auf der Webseite https://calcbox.de eine Visualisierung des Spielfeldes anzeigen lassen.
+
+Setze Deine Schiffe und beginne Alexa nach einem Feld zu fragen, z.B: 'C4'. Alexa antwortet mit 'Wasser', 'Treffer' oder 'Versenkt'. Hast du Wasser getroffen, dann wechselt Ihr die Rollen und Alexa fragt Dich nach einem Feld und Du musst mit 'Wasser', 'Treffer' oder 'Versenkt' antworten.
+
+Die Schiffe dürfen sich nicht berühren, auch nicht über Ecke.
+
+Da Alexa manche Buchstaben nicht so gut unterscheiden kann (B / D / E), kann das Buchstabieralphabet verwendet werden (Anton, Berta, Cäsar, Dora, Emil, Friedrich, Gustav, Heinrich, Ida, Julius). "C4" wäre dann "Cäsar Vier".
+
+Wenn sich nach einer kurzen Pause sich der Alexa Skill beendet, dann kann das Spiel ganz einfach mit "Alexa starte Schiffe-Versenken" wieder fortgesetzt werden.
+
+Feedback: ferenc.hechler(AT)gmail.com
+
+Fragen aus Rezensionen:
+F1: Alexa beendet das Spiel nach einer längeren Bedenkzeit meinerseits.
+A1: Der Spielstand wird gespeichert. Sobald der Schiffe-Versenken Skill erneut gestartet wird, kann an der selben Stelle weitergespielt werden. Die auszuführende Aktion kann auch gleich beim Starten mitgegeben werden: "Alexa sage Schiffe-Versenken Cäsar vier" oder "Alexa sage Schiffe-Versenken Wasser".
+
+F2: Ich würde meine eigenen Schiffe gerne in der Oberfläche setzen.
+A2: Dann könnte Alexa ja mogeln...   :-)
+Spaß beiseite: Das ist nicht geplant. Die eigenen Schiffe müssen auf einem Blatt Papier aufgemalt werden.
+
+F3: Ich habe ein Blindspiel gestartet und möchte jetzt ein Monitor-Spiel starten. Ich kann das Spiel aber nicht beenden.
+A3: Der Skill verbindet sich beim Starten automatisch mit dem letzten verbundenen Spiel (siehe F1). Um Alexa mit einem anderen Spiel zu verbinden kann statt dem Zug einfach "Meine Spiel ID ist ..." gesagt werden. Alexa erbittet dann zur Sicherheit eine Bestätigung: "Bitte bestätige mit JA, dass du eine neue Verbindung herstellen möchtest?". Wird das beJAht, dann wird die Verbindung zu dem Monitor-Spiel hergestellt.
+
+F4: Ist das ein Lern-Projekt? Geht die Webseite bald offline?
+A4: Ja und Nein. Ich wollte Erfahrungen sammeln, wie die Sprachsteuerung von Alexa in Zusammenhang mit einem zustandsbehafteten REST-Service verwendet werden kann. Die Sourcen zu diesem Skill sind öffentlich verfügbar unter https://github.com/ferenc-hechler/AlexaSkillBattleships .
+Die grafische Darstellung ist reines Java-Script mit Ajax (JQuery), kann also gerne von jedem nach belieben angepasst werden.
+Wer eine hübsche GUI entwickelt hat, kann sich gerne bei mir melden, dann tausche ich meine Seiten aus.   ;-)
+Die Webseite werde ich nicht offline nehmen. 

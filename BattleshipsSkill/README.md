@@ -1,5 +1,5 @@
-# AlexaSkills
-Die NodeJS Sourcen zu den Alexa Skills "Rollenspiel Soloabenteuer", "Vier Gewinnt" und "Schiffeversenken". 
+# BattleshipSkill
+Die NodeJS Sourcen zum Alexa Skill "Schiffe versenken". 
 Die zugehörigen REST-Services befinden sich im Java-Projekt AIGames.
 
 # License GPLv3
